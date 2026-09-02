@@ -1,0 +1,30 @@
+<Page
+    x:Class="RFL.Downloader.App.Pages.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RFL.Downloader.App.Pages">
+    <Grid Padding="20">
+        <StackPanel Spacing="20" MaxWidth="800">
+            <TextBlock Text="RFL Downloader" Style="{StaticResource TitleTextBlockStyle}" FontSize="32"/>
+            <TextBlock Text="Paste a URL to analyze or download..." Style="{StaticResource SubtitleTextBlockStyle}"/>
+            
+            <TextBox x:Name="UrlInput" PlaceholderText="Paste URL here..." TextWrapping="Wrap" AcceptsReturn="False"/>
+            
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <Button x:Name="AnalyzeButton" Content="Analyze" Click="AnalyzeButton_Click"/>
+                <Button x:Name="PasteAnalyzeButton" Content="Paste &amp; Analyze" Click="PasteAnalyzeButton_Click"/>
+            </StackPanel>
+
+            <ProgressRing x:Name="LoadingIndicator" IsActive="False" Visibility="Collapsed"/>
+            
+            <Border x:Name="MediaInfoCard" Background="{ThemeResource CardBackgroundFillColor}" Padding="20" CornerRadius="8" Visibility="Collapsed">
+                <StackPanel Spacing="15">
+                    <TextBlock x:Name="MediaTitle" Text="" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                    <TextBlock x:Name="MediaUploader" Text="" Style="{StaticResource BodyTextBlockStyle}"/>
+                    <TextBlock x:Name="MediaDuration" Text="" Style="{StaticResource BodyTextBlockStyle}"/>
+                    <Image x:Name="MediaThumbnail" MaxHeight="200" Stretch="Uniform" HorizontalAlignment="Left"/>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

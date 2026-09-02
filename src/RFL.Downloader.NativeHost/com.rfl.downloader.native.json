@@ -1,0 +1,10 @@
+{
+  "name": "com.rfl.downloader.native",
+  "description": "RFL Downloader Native Messaging Host",
+  "path": "RFL.Downloader.NativeHost.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://*/*",
+    "moz-extension://*/*"
+  ]
+}

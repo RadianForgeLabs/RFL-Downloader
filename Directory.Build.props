@@ -1,0 +1,22 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Authors>RADIANFORGELABS</Authors>
+    <Company>RFL Studios</Company>
+    <Product>RFL Downloader</Product>
+    <Copyright>Copyright (c) 2026 RADIANFORGELABS / RFL Studios</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Deterministic>true</Deterministic>
+    <RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RADIANFORGELABS/RFL-Downloader</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RADIANFORGELABS/RFL-Downloader</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

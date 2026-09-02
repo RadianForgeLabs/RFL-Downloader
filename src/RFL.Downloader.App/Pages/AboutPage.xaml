@@ -1,0 +1,41 @@
+<Page
+    x:Class="RFL.Downloader.App.Pages.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Padding="20">
+        <ScrollViewer MaxWidth="600">
+            <StackPanel Spacing="15">
+                <TextBlock Text="RFL Downloader" Style="{StaticResource TitleTextBlockStyle}" FontSize="32"/>
+                <TextBlock Text="RFL Studios" Style="{StaticResource SubtitleTextBlockStyle}" FontSize="20"/>
+                <TextBlock Text="RADIANFORGELABS" Style="{StaticResource BodyTextBlockStyle}" FontWeight="SemiBold"/>
+
+                <TextBlock Text="Version 1.0.0" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                <TextBlock Text="A modern Windows downloader application developed by RFL Studios, the software division of RADIANFORGELABS. Powered by yt-dlp and FFmpeg, built with WinUI 3 for a polished Windows 11 experience."
+                           Style="{StaticResource BodyTextBlockStyle}"
+                           TextWrapping="Wrap"/>
+
+                <TextBlock Text="Copyright © 2026 RADIANFORGELABS / RFL Studios"
+                           Style="{StaticResource BodyTextBlockStyle}"
+                           FontWeight="SemiBold"/>
+
+                <TextBlock Text="Licensed under GNU General Public License v3.0"
+                           Style="{StaticResource BodyTextBlockStyle}"/>
+
+                <TextBlock Text="Third-Party Components:" Style="{StaticResource SubtitleTextBlockStyle}"/>
+                <TextBlock Text="yt-dlp: YouTube video downloader (GPLv3)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="FFmpeg: Multimedia framework (GPLv2/LGPLv2.1)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="WinUI 3: Windows App SDK (MIT)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text=".NET: Microsoft .NET (MIT)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="Entity Framework Core: Object-relational mapper (Apache 2.0)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="Serilog: Structured logging (Apache 2.0)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="CommunityToolkit.Mvvm: MVVM framework (MIT)" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock Text="SQLite: Embedded database (Public Domain)" Style="{StaticResource BodyTextBlockStyle}"/>
+
+                <TextBlock Text="For detailed third-party license information, see THIRD-PARTY-NOTICES.md"
+                           Style="{StaticResource BodyTextBlockStyle}"
+                           TextWrapping="Wrap"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>RFL.Downloader.NativeHost</RootNamespace>
+    <Description>Native messaging host boundary for future browser integration.</Description>
+    <AssemblyName>RFL.Downloader.NativeHost</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RFL.Downloader.Models\RFL.Downloader.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="com.rfl.downloader.native.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+<Window
+    x:Class="RFL.Downloader.App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RFL.Downloader.App"
+    Title="RFL Downloader">
+    <Grid>
+        <NavigationView x:Name="MainNavigation" PaneDisplayMode="Left">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
+                <NavigationViewItem Icon="Download" Content="Downloads" Tag="downloads"/>
+                <NavigationViewItem Icon="Clock" Content="Queue" Tag="queue"/>
+                <NavigationViewItem Icon="History" Content="History" Tag="history"/>
+                <NavigationViewItem Icon="Star" Content="Presets" Tag="presets"/>
+                <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
+                <NavigationViewItem Icon="Help" Content="About" Tag="about"/>
+            </NavigationView.MenuItems>
+            <Frame x:Name="ContentFrame"/>
+        </NavigationView>
+    </Grid>
+</Window>

@@ -5,6 +5,7 @@
  * SPDX-License-Identifier: GPL-3.0-only
  */
 
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
 using RFL.Downloader.App.Services;
@@ -15,7 +16,6 @@ using RFL.Downloader.YtDlp;
 using RFL.Downloader.FFmpeg;
 using Serilog;
 using Serilog.Extensions.Hosting;
-using WinRT;
 
 namespace RFL.Downloader.App;
 

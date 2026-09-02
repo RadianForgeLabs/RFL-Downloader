@@ -1,5 +1,12 @@
 # Development Guide
 
+**RFL Studios**  
+**RADIANFORGELABS**
+
+Copyright (c) 2026 RADIANFORGELABS / RFL Studios
+
+SPDX-License-Identifier: GPL-3.0-only
+
 ## Getting Started
 
 ### Prerequisites

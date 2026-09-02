@@ -1,3 +1,10 @@
+/*
+ * RFL Downloader
+ * Copyright (c) 2026 RADIANFORGELABS / RFL Studios
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 using Microsoft.Extensions.DependencyInjection;
 using RFL.Downloader.Core.Abstractions;
 using RFL.Downloader.Core.Process;

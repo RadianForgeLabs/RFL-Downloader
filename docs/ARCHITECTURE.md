@@ -1,5 +1,12 @@
 # RFL Downloader Architecture
 
+**RFL Studios**  
+**RADIANFORGELABS**
+
+Copyright (c) 2026 RADIANFORGELABS / RFL Studios
+
+SPDX-License-Identifier: GPL-3.0-only
+
 ## Overview
 
 RFL Downloader is built with a clean, layered architecture that separates concerns and enables extensibility. The design supports multiple download engines through abstraction layers.

@@ -1,3 +1,10 @@
+/*
+ * RFL Downloader
+ * Copyright (c) 2026 RADIANFORGELABS / RFL Studios
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 using System.Text.Json;
 
 public class Program

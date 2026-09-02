@@ -5,7 +5,6 @@
  * SPDX-License-Identifier: GPL-3.0-only
  */
 
-using WinRT;
 using Microsoft.UI.Xaml;
 
 namespace RFL.Downloader.App;
@@ -15,7 +14,7 @@ public class Program
     [MTAThread]
     static int Main(string[] args)
     {
-        WinRT.Compatibility.Initialize();
         Application.Start((p) => new App());
+        return 0;
     }
 }

@@ -1,5 +1,12 @@
 using RFL.Downloader.Models.Media;
 
+/*
+ * RFL Downloader
+ * Copyright (c) 2026 RADIANFORGELABS / RFL Studios
+ *
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
+
 namespace RFL.Downloader.Models.Presets;
 
 public class Preset
